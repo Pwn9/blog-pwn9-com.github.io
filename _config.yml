@@ -24,3 +24,5 @@ exclude:
   - Gemfile.lock
   - Rakefile
   - vendor
+
+theme: jekyll-theme-slate
