@@ -15,7 +15,6 @@ url: "http://blog.pwn9.com" # the base hostname & protocol for your site
 twitter_username: pwn9
 github_username:  pwn9
 permalink: /:year/:month/:title
-lsi: true
 
 # Build settings
 exclude:
@@ -25,36 +24,3 @@ exclude:
   - Gemfile.lock
   - Rakefile
   - vendor
-
-asciidoc: {}
-asciidoctor:
-  base_dir: :docdir
-  safe: unsafe
-  imagesdir: img
-  attributes:
-    - idseparator=_
-    - source-highlighter=coderay
-    - icons=font
-timezone: America/New_York
-
-#Theme config
-nav_list:
-  Home : ['Home', '/', 'fa-home']
-#  Contact : ['Contact', '/contact', 'fa-plane']
-single_footer: '<p>&copy; 2017 Pwn9.com <a href="/">latest posts</a></p>'
-footer_links:
-    About: ['About', '/about']
-
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      author_name: Pwn9
-      author_url: /author/pwn9
-#      author_avatar: 
-      show_avatar: false
-      show_related_posts: true
-      comments: true
-#      feature_image: feature-sailing
-#      square_related: recommend-wolf

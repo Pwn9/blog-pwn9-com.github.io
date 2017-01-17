@@ -1,11 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'jekyll'
-gem 'rake'
-gem 'rake-jekyll'
-gem 'coderay'
-gem 'classifier-reborn'
+require 'json'
+require 'open-uri'
+versions = JSON.parse(open('https://pages.github.com/versions.json').read)
 
-group :jekyll_plugins do
-  gem 'jekyll-asciidoc', '~> 2.0.1'
-end
+gem 'github-pages', versions['github-pages']
