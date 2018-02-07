@@ -3,7 +3,10 @@ layout: default
 published: true
 ---
 <!-- Place for an intro paragraph on the homepage -->
-
+<h1>Welcome to Pwn9</h1>
+<div class="entry">
+  Pwn9 is an online community mostly based around gaming. Our community primarily uses our <a href="https://discord.pwn9.com">Discord Server</a> which is open for anyone to join and become part of Pwn9. Members use the Discord voice channels to team up and play Minecraft, GuildWars, Overwatch, Planetside, and more. Join our #lounge for fun random discussion or let off some steam in the #politics channel. Excercise your mind in #coding where several experienced software developers mingle and talk about programming and projects. 
+</div>
 <!-- End Intro -->
 
 <!-- Begin posts -->
@@ -11,7 +14,7 @@ published: true
   {% for post in site.posts %}
     <article class="post">
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 
       <div class="entry">
         {{ post.excerpt }}
