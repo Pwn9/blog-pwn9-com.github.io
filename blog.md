@@ -1,8 +1,8 @@
 ---
 layout: archive
 title: Blog
-permalink: /Blog/
+permalink: /blog/
 published: true
 ---
 
-
+# Blog Archive
