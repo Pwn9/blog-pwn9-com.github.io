@@ -5,4 +5,3 @@ permalink: /blog/
 published: true
 ---
 
-# Blog Archive
