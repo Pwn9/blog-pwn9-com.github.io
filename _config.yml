@@ -21,7 +21,7 @@ footer-links:
   email:
   facebook: Pwn9Gaming
   flickr:
-  github: Pwn9/blog-pwn9-com.github.io
+  github: Pwn9
   instagram:
   linkedin:
   pinterest:
@@ -30,6 +30,7 @@ footer-links:
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: channel/UC2A69WIoIU4-8o3-4V0SyrQ # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
+  discord: discord.pwn9.com
 
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
