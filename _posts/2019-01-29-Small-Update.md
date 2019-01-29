@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 Wow it's been ages since we took the time to sit down and work on this site, nearly a full year considering the last post was from February 8th. Anyways, now I'm kind of in the mood to contribute whatever I can to this site and learn this new blog system. The lack of website updates probably has to do with just the fact that we have everything done on our Discord. 
 
