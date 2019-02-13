@@ -1,6 +1,8 @@
 ---
 published: true
 layout: post
+author: tremor
+title: Minecraft Vanilla Server Online
 ---
 Pwn9 currently hosts a Vanilla version 1.11.2 Minecraft server at pwn9.com:25565
 
