@@ -290,7 +290,7 @@ footer {
   padding: 0;
   width: 200px;
   background-color: #f1f1f1;
-  position: fixed;
+  position: relative;
   height: 100%;
   overflow: auto;
 }
@@ -315,7 +315,6 @@ footer {
 div.content {
   margin-left: 200px;
   padding: 1px 16px;
-  height: 1000px;
 }
 
 @media screen and (max-width: 700px) {
@@ -324,7 +323,7 @@ div.content {
     height: auto;
     position: relative;
   }
-  .sidebar a {float: left;}
+  .sidebar a {float: right;}
   div.content {margin-left: 0;}
 }
 
