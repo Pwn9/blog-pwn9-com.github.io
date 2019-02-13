@@ -1,5 +1,6 @@
 ---
 published: true
+layout: post
 author: dp
 title: A Small Update from Pwn9
 ---

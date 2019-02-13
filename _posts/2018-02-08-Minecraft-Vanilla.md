@@ -1,5 +1,6 @@
 ---
 published: true
+layout: post
 author: tremor
 title: Minecraft Vanilla Server Online
 ---
