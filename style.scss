@@ -314,7 +314,6 @@ footer {
 
 div.content {
   margin-left: 200px;
-  padding: 1px 16px;
 }
 
 @media screen and (max-width: 700px) {
@@ -323,7 +322,7 @@ div.content {
     height: auto;
     position: relative;
   }
-  .sidebar a {float: right;}
+  .sidebar a {float: left;}
   div.content {margin-left: 0;}
 }
 
