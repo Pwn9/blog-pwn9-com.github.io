@@ -3,45 +3,43 @@ layout: default
 published: true
 ---
 
+<div class="row">
 
-<!-- A responsive sidebar - ish? -->
-<div class="sidebar">
-    <!--<a href="http://discord.pwn9.com"><i class="svg-icon discord"></i> Discord Server</a>-->
-    <iframe src="https://discordapp.com/widget?id=174608456551104513&theme=dark" width="100%" height="600" allowtransparency="true" frameborder="0"></iframe>
-</div>
-<!-- End Sidebar -->
+    <div class="col-md-4">
+        <!-- A responsive sidebar - ish? -->
+            <!--<a href="http://discord.pwn9.com"><i class="svg-icon discord"></i> Discord Server</a>-->
+            <iframe src="https://discordapp.com/widget?id=174608456551104513&theme=dark" width="100%" height="600" allowtransparency="true" frameborder="0"></iframe>
+        <!-- End Sidebar -->
+    </div>
 
+    <div class="col-md-8">
 
+      <!-- Place for an intro paragraph on the homepage -->
+      <div class="entry">
+      </div>  
+      <!-- End Intro --> 
+     
+     
+      <h1>Latest Posts</h1>
+      <!-- Begin posts -->
+      <div class="posts">
+        {% for post in site.posts limit:5 %}
+          <article class="post">
 
-<!-- Content Container -->
-<div class="content">
- 
- 
-  <!-- Place for an intro paragraph on the homepage -->
-  <div class="entry">
-  </div>  
-  <!-- End Intro --> 
- 
- 
-  <h1>Latest Posts</h1>
-  <!-- Begin posts -->
-  <div class="posts">
-    {% for post in site.posts limit:5 %}
-      <article class="post">
+            <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 
-        <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+            <div class="entry">
+              {{ post.excerpt | strip_html | truncatewords:75 }}
+            </div>
 
-        <div class="entry">
-          {{ post.excerpt | strip_html | truncatewords:75 }}
-        </div>
-
-        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-      </article>
-    {% endfor %}
-  </div>
-  <!-- End posts -->
-  
-  
+            <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+          </article>
+        {% endfor %}
+      </div>
+      <!-- End posts -->
+      
+    </div>
+      
 </div>
 
 <!-- End Content Container -->
