@@ -1,6 +1,5 @@
 ---
 published: true
-layout: post
 author: tremor
 title: PwnBuckets Minecraft Plugin Update
 ---
