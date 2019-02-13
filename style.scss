@@ -290,7 +290,7 @@ footer {
   padding: 0;
   width: 200px;
   background-color: #f1f1f1;
-  position: relative;
+  position: fixed;
   height: 100%;
   overflow: auto;
 }
@@ -301,7 +301,7 @@ footer {
   padding: 16px;
   text-decoration: none;
 }
- 
+
 .sidebar a.active {
   background-color: #4CAF50;
   color: white;
