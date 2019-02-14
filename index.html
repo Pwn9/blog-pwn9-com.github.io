@@ -7,8 +7,18 @@ published: true
 
     <div class="col-md-4">
         <!-- A responsive sidebar - ish? -->
+           
             <!--<a href="http://discord.pwn9.com"><i class="svg-icon discord"></i> Discord Server</a>-->
             <iframe src="https://discordapp.com/widget?id=174608456551104513&theme=dark" width="100%" height="600" allowtransparency="true" frameborder="0"></iframe>
+            
+            <div class="mcWidget">
+              <div class="mcIcon">
+                <img src="" id="favicon">
+              </div>
+              <div id="serverAddress">pwn9.org:25565</div>
+              <div id="mcStatus">Loading ...</div>
+            </div>
+
         <!-- End Sidebar -->
     </div>
 
@@ -42,4 +52,20 @@ published: true
       
 </div>
 
+
+<script type="text/javascript">
+  var url = "https://api.minetools.eu/ping/pwn9.org/25565";
+  $.getJSON(url, function(r) {
+      //data is the JSON string
+   if(r.error){
+      $('#rest').html('Server Offline');
+     return false;
+   } 
+  var pl = '';
+   if(r.players.sample.length > 0 ){ pl = '<br>OP: '+r.players.sample[0].name;  } 
+    $('#mcStatus').html(r.description.replace(/§(.+?)/gi, '')+'<br><b>Players Online:</b> '+r.players.online+pl);
+   $('#favicon').attr('src', r.favicon);
+
+  });
+</script>
 <!-- End Content Container -->

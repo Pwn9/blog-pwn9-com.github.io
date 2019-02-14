@@ -274,6 +274,26 @@ footer {
   text-align: center;
 }
 
+// MC Widget
+.mcWidget {
+  
+}
+
+.mcIcon {
+  display: -webkit-flex; /* Safari */
+  -webkit-align-items: center; /* Safari 7.0+ */
+  display: flex;
+  align-items: center;
+}
+
+#serverAddress { 
+  text-transform: uppercase;
+}
+
+#mcStatus {
+
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
