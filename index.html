@@ -54,6 +54,9 @@ published: true
 
 
 <script type="text/javascript">
+(function() {
+  // your page initialization code here
+  // the DOM will be available here
   var url = "https://api.minetools.eu/ping/pwn9.org/25565";
   $.getJSON(url, function(r) {
       //data is the JSON string
@@ -66,6 +69,11 @@ published: true
     $('#mcStatus').html(r.description.replace(/§(.+?)/gi, '')+'<br><b>Players Online:</b> '+r.players.online+pl);
    $('#favicon').attr('src', r.favicon);
 
-  });
+  });  
+
+})();  
 </script>
+
+
+
 <!-- End Content Container -->
