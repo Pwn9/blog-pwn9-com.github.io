@@ -1,0 +1,1 @@
+Maybe a redirect to the wiki?
