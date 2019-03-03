@@ -258,7 +258,12 @@ nav {
 
   .read-more {
     text-transform: uppercase;
+    font-style: italic;
+    font-weight: bold;
     font-size: 15px;
+  }
+  .read-more::after {
+  content: "...";
   }
 }
 
