@@ -284,6 +284,18 @@ footer {
   box-shadow: 0 1px 5px rgba(0,0,0,0.4);
 }
 
+.mcWidget-title {
+  margin: -15px !important;
+  margin-bottom: 5px !important;
+  height: 32px;
+  line-height: 32px !important;
+  background-color: #333;
+  border: solid 1px #222 !important;
+  padding-left: 10px !important;
+  font-weight: bold !important;
+  font-size: 1.17em !important;
+}
+
 .mcIcon {
   float: left;
   padding-right: 10px;
@@ -301,10 +313,20 @@ footer {
   padding: 10px;
   overflow-y: scroll;
   overflow-x: hidden;
+  border: 0px;
 }
 
 .discord-users-online {
   padding-bottom: 20px;
+}
+
+.discord-join {
+  width: auto;
+  line-height: 27px !important;
+  background-color: #8c5800;
+  margin: 4px;
+  margin-top: -2px;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.4);
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
