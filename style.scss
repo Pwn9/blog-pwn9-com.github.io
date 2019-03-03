@@ -18,14 +18,14 @@ html {
 }
 
 body {
-	background: $white;
+	background: rgb(33, 33, 33);
   font: 18px/1.4 $helvetica;
-  color: $darkGray;
+  color: #dbdbdb;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: $darkerGray;
+  color: rgb(247,187,46,1);
   font-weight: bold;
   line-height: 1.7;
   margin: 1em 0 15px;
@@ -60,11 +60,11 @@ p {
 }
 
 a {
-  color: $blue;
+  color: rgb(247,187,46,1);
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: #F2A100;
   }
 }
 
