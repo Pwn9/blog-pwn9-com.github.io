@@ -147,7 +147,8 @@ img {
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+  background: linear-gradient( to left, rgba(255,255,255,0) 0%, rgb(247, 187, 46) 50%, rgba(255,255,255,0) 100% ) left bottom rgba(255,255,255,0) no-repeat;
+  background-size: 100% 3px;
 
   @include mobile {
     text-align: center;
