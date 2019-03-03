@@ -297,6 +297,10 @@ footer {
   text-transform: uppercase;
 }
 
+#serverAddress::before { 
+  content: "Address: ";
+}
+
 #mcStatus {
 
 }
