@@ -278,11 +278,10 @@ footer {
 
 // MC Widget
 .mcWidget {
-  background: $darkBlue;
-  border-radius: 8px;
+  background: #414141;
   margin-bottom: 20px;
-  padding: 20px;
-  border: 3px solid $black;
+  padding: 10px;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.4);
 }
 
 .mcIcon {
@@ -302,6 +301,10 @@ footer {
   padding: 10px;
   overflow-y: scroll;
   overflow-x: hidden;
+}
+
+.discord-users-online {
+  padding-bottom: 20px;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
