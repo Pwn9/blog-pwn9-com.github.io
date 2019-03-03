@@ -40,7 +40,7 @@ published: true
         {% for post in site.posts limit:5 %}
           <article class="post">
 
-            <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+            <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
 
             <div class="entry">
               {{ post.excerpt | strip_html | truncatewords:75 }}
