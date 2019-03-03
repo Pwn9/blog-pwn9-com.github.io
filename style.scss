@@ -279,7 +279,7 @@ footer {
 // MC Widget
 .mcWidget {
   background: #222f3e;
-  border-radius: 5px;
+  border-radius: 8px;
   margin-bottom: 20px;
   padding: 20px;
   border: 3px solid #000;
@@ -295,6 +295,11 @@ footer {
 
 #mcStatus {
 
+}
+
+#discord-widget: {
+  border: 1px solid #515151;
+  border-radius: 8px;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
