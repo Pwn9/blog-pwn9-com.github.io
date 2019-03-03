@@ -15,28 +15,9 @@ published: true
                 </div>
               <div id="serverAddress"><b>Address:</b> pwn9.org:25565</div>
                 <div id="mcStatus">Loading ...</div>
-            </div>
+             </div>
       
-            <!--<iframe src="https://discordapp.com/widget?id=174608456551104513&theme=dark" width="100%" height="600" allowtransparency="true" frameborder="0"></iframe>-->
-      <script type="text/javascript" src="//cdn.jsdelivr.net/gh/restingcoder/discord-widget@1.1/discord-widget.min.js"></script>
-<script type="text/javascript">
-    discordWidget.init({
-        serverId: '174608456551104513',
-        title: 'Pwn9 Discord',
-        join: true,
-        joinText: 'Join Server',
-        alphabetical: false,
-        theme: 'dark',
-        hideChannels: ['💤 AFK', '💎 Members', '🌎 Public', '🌎 Public (🔊HQ)'],
-        showAllUsers: false,
-        allUsersDefaultState: true,
-        showNick: true,
-        userName: '',
-        useCDN: true
-    });
-    discordWidget.render();
-</script>
-<div class="discord-widget"></div>
+             <div class="discord-widget"></div>
 
         <!-- End Sidebar -->
     </div>
@@ -48,8 +29,7 @@ published: true
       </div>  
       <!-- End Intro --> 
      
-     
-      <!--<h1>Latest Posts</h1>-->
+
       <!-- Begin posts -->
       <div class="posts">
         {% for post in site.posts limit:5 %}
@@ -71,7 +51,6 @@ published: true
       
 </div>
 
-
 <script type="text/javascript">
 (function() {
   var url = "https://api.minetools.eu/ping/pwn9.org/25565";
@@ -91,6 +70,23 @@ published: true
 })();  
 </script>
 
-
+<script type="text/javascript" src="//cdn.jsdelivr.net/gh/restingcoder/discord-widget@1.1/discord-widget.min.js"></script>
+<script type="text/javascript">
+discordWidget.init({
+  serverId: '174608456551104513',
+  title: 'Pwn9 Discord',
+  join: true,
+  joinText: 'Join Server',
+  alphabetical: false,
+  theme: 'dark',
+  hideChannels: ['💤 AFK', '💎 Members', '🌎 Public', '🌎 Public (🔊HQ)'],
+  showAllUsers: true,
+  allUsersDefaultState: true,
+  showNick: true,
+  userName: '',
+  useCDN: true
+});
+discordWidget.render();
+</script>
 
 <!-- End Content Container -->
