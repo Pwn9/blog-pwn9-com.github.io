@@ -217,14 +217,14 @@ nav {
 
   a {
     margin-left: 20px;
-    color: #f7bb2e;
+    color: #d88900;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
 
     @include mobile {
       margin: 0 10px;
-      color: $blue;
+      color: #935d00;
     }
   }
 }
