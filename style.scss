@@ -18,14 +18,14 @@ html {
 }
 
 body {
-  background-color: #212121 !important;
+  background-color: $darkerGray !important;
   font: 18px/1.4 $helvetica;
-  color: #dbdbdb !important;
+  color: $lightGray !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: #d88900;
+  color: $orange;
   font-weight: bold;
   line-height: 1.7;
   margin: 1em 0 15px;
@@ -60,11 +60,11 @@ p {
 }
 
 a {
-  color: #d88900;
+  color: $orange;
   text-decoration: none;
   cursor: pointer;
   &:hover, &:active {
-    color: #935d00;
+    color: $darkOrange;
   }
 }
 
@@ -217,14 +217,14 @@ nav {
 
   a {
     margin-left: 20px;
-    color: #d88900;
+    color: $orange;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
 
     @include mobile {
       margin: 0 10px;
-      color: #935d00;
+      color: $darkOrange;
     }
   }
 }
@@ -278,11 +278,11 @@ footer {
 
 // MC Widget
 .mcWidget {
-  background: #222f3e;
+  background: $darkBlue;
   border-radius: 8px;
   margin-bottom: 20px;
   padding: 20px;
-  border: 3px solid #000;
+  border: 3px solid $black;
 }
 
 .mcIcon {
