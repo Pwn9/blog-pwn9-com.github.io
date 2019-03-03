@@ -279,7 +279,8 @@ footer {
 // MC Widget
 .mcWidget {
   background: #414141;
-  margin-bottom: 20px;
+  margin: -10px;
+  margin-bottom: 5px;
   padding: 10px;
   box-shadow: 0 1px 5px rgba(0,0,0,0.4);
 }
@@ -313,11 +314,12 @@ footer {
   padding: 10px;
   overflow-y: scroll;
   overflow-x: hidden;
-  border: 0px;
+  border: 0px !important;
+  margin: 0px !important;
 }
 
 .discord-users-online {
-  padding-bottom: 20px;
+  padding-bottom: 20px !important;
 }
 
 .discord-join {
