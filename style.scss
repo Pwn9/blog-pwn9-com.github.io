@@ -60,9 +60,9 @@ p {
 }
 
 a {
-  color: rgb(247,187,46,1);
+  color: rgb(247,187,46);
   text-decoration: none;
-	cursor: pointer;
+  cursor: pointer;
   &:hover, &:active {
     color: #F2A100;
   }
