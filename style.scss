@@ -321,11 +321,12 @@ footer {
 }
 
 .discord-join {
-  width: auto;
+  color: $lightGray !important;
+  width: auto !important;
   line-height: 27px !important;
-  background-color: #8c5800;
-  margin: 4px;
-  margin-top: -2px;
+  background-color: #8c5800 !important;
+  margin: 4px !important;
+  margin-top: -2px !important;
   box-shadow: 0 1px 5px rgba(0,0,0,0.4);
 }
 
