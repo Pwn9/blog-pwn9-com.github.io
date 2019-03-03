@@ -60,11 +60,11 @@ p {
 }
 
 a {
-  color: $orange;
+  color: $orange !important;
   text-decoration: none;
   cursor: pointer;
   &:hover, &:active {
-    color: $darkOrange;
+    color: $darkOrange !important;
   }
 }
 
@@ -217,14 +217,14 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $orange;
+    color: $orange !important;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
 
     @include mobile {
       margin: 0 10px;
-      color: $darkOrange;
+      color: $darkOrange !important;
     }
   }
 }
