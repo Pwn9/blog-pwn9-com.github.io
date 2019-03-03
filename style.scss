@@ -262,9 +262,6 @@ nav {
     font-weight: bold;
     font-size: 15px;
   }
-  .read-more::after {
-  content: "...";
-  }
 }
 
 .wrapper-footer {
@@ -294,10 +291,6 @@ footer {
 }
 
 #serverAddress { 
-}
-
-#serverAddress::before { 
-  content: "Address: ";
 }
 
 #mcStatus {
